@@ -1,0 +1,25 @@
+# Ignore composer dependency directory
+/vendor/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore XAMPP or local server files
+htdocs/
+
+# Ignore compiled files
+*.log
+*.cache
+*.tmp
+
+# Ignore IDE or editor-specific files
+.idea/
+.vscode/
+
+# Ignore PHPMD and PHPUnit related files
+phpunit.xml
+phpunit.xml.dist
+
+# Ignore config.php file (if it contains sensitive information)
+config.php
